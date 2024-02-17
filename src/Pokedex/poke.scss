@@ -1,0 +1,27 @@
+#root {
+  height: 100vh;
+}
+.pokebox-container {
+  padding: 14px 20px;
+  background-color: #efefbb;
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+  h1 {
+    text-align: center;
+  }
+  .pokedex-content {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    .card {
+      padding: 10px 14px;
+      border-radius: 10px;
+      width: 200px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0px 0px 2px black;
+    }
+  }
+}
